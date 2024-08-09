@@ -13,8 +13,7 @@ body{
   height: 600px;
   margin: 0 auto;
   margin-top: 20px;
-  background-image:border-radius: 16px;
-
+  border-radius: 16px;
   background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(/new-year-offer-resources/images/Banner\ Image.png) ; 
   background-position:center;
   background-repeat: no-repeat;
@@ -47,6 +46,10 @@ line-height: 95px;
 letter-spacing: 0%;
 text-align: center;
 }
+/* main section */
+.main{
+    display:grid;
+}
 /* 65% 0ff section style */
 .offer{
     position: absolute;
@@ -73,11 +76,63 @@ text-align: center;
 }
 .title{
     color: rgb(7, 2, 17);
-    font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     text-align: center;
 }
 .img{
     border: dotted gray;
+}
+/* midnight party section */
+.midnight-party{
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    left:10.61%;
+    right: -10.61%;
+    top: 1620px;
+    border-radius: 16px;
+    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(new-year-offer-resources/images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.head2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 900;
+    top: 50px;
+    margin: 50px;
+    padding: 50px;
+}
+.describe{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    height: 60px;
+    left: 100px;
+    top: 320px;
+    bottom: -1482px;   
+    font-size: 14px;
+    font-weight: 400;
+}
+.join-now{
+    position: absolute;
+width: 103px;
+height: 24px;
+left: 130px;
+top: 400px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 700;
+}
+.midnight-img{
+    position: absolute;
+    width: 349.16px;
+    height: 464.65px;
+    left: 850px;
+    top: 55px;
+    bottom: 0%;
 }
