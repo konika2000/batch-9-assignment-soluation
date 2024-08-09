@@ -1,5 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Merriweather", serif; 
+}
+/* banner style */
+.banner-container{
+  max-width: 1320px; 
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image:border-radius: 16px;
+
+  background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(/new-year-offer-resources/images/Banner\ Image.png) ; 
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content{
+position: absolute;
+width: 632px;
+height: 246px;
+left: 484px;
+right: -484px;
+top: 227px;
+bottom: -227px;
+}
+.banner-content p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* 65% 0ff section style */
+.offer{
+    position: absolute;
+    width: 802.9px;
+    height: 806px;
+    left: 399px;
+    right: 398.1px;
+    top: 770px;
+    bottom: 5759px; 
+}
+.head{
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;  
+}
+.sub-title{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.title{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.img{
+    border: dotted gray;
 }
