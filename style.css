@@ -46,10 +46,6 @@ line-height: 95px;
 letter-spacing: 0%;
 text-align: center;
 }
-/* main section */
-.main{
-    display:grid;
-}
 /* 65% 0ff section style */
 .offer{
     position: absolute;
@@ -57,15 +53,14 @@ text-align: center;
     height: 806px;
     left: 399px;
     right: 398.1px;
-    top: 770px;
-    bottom: 5759px; 
+    top: 700px; 
 }
 .head{
     color: rgb(255, 0, 0);
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
-    letter-spacing: 0%;
+    padding-bottom: 20px;
     text-align: center;  
 }
 .sub-title{
@@ -90,7 +85,7 @@ text-align: center;
     height: 600px;
     left:10.61%;
     right: -10.61%;
-    top: 1620px;
+    top: 1510px;
     border-radius: 16px;
     background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(new-year-offer-resources/images/Vectorrr.png);
     background-position: center;
@@ -113,10 +108,10 @@ text-align: center;
     width: 600px;
     height: 60px;
     left: 100px;
-    top: 320px;
-    bottom: -1482px;   
+    top: 320px;   
     font-size: 14px;
     font-weight: 400;
+    line-height: 30px;
 }
 .join-now{
     position: absolute;
@@ -136,3 +131,123 @@ font-weight: 700;
     top: 55px;
     bottom: 0%;
 }
+/* third section style */
+.third-section{
+    position: absolute;
+width: 1320px;
+height: 482px;
+left: 10.61%;
+right: -10.61%;
+top: 2200px;
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.detail{
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+margin-top:100px;
+text-align: center;
+text-transform: capitalize;
+}
+.red{
+    color: red;
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    position: relative;
+width: 167px;
+height: 56px;
+border: none;
+color: white;
+left: 45%;
+top:50px ;
+}
+/* fourth section style */
+.fourth-section{
+    position: absolute;
+width: 1320px;
+height: 463px;
+left: 10.61%;
+right:-10.61%;
+top: 2770px;
+border-radius: 16px;
+display: flex;
+}
+.left{
+ width: 33.33%;
+ height: 100%;
+}
+.NEW-BEST-OFFER{
+    position: absolute;
+    height: 29px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    top: 110px;
+}
+.Coming-Soon{
+    position: absolute;
+    height: 60px;
+    top: 155px;
+    color: rgb(7, 2, 17);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.Dolor{
+    position: absolute;
+    height: 128px;
+    width: 393px;
+    top: 230px;
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left; 
+}
+.middle{
+    width: 33.33%;
+    height: 100%;
+    width:463px;
+    height: 463px;
+    border-radius: 50%;
+    border: 20px solid red;
+}
+.ellip-img{
+position: absolute;
+width: 364.84px;
+height: 364.84px;
+left: 475px;
+top: 48px;
+}
+.right{
+    width: 33.33%;
+ height: 100%;
+}
+.year{
+    color: red;
+    font-size: 42px;
+    font-weight: 700px;
+    width: 126px;
+    height: 58px;
+    line-height: 58px;
+    padding-bottom: 80px;
+}
+.text{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 16px;
+    font-weight: 400px;
+    padding-bottom: 50px;
+    line-height: 32px;
+}
+ .right-contant{
+    margin-top: 20%;
+    margin-left: 40%;  
+} 
+
